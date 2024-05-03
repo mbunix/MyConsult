@@ -1,0 +1,6 @@
+@myConsultApi_HostAddress = http://localhost:5123
+
+GET {{myConsultApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
