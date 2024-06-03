@@ -1,0 +1,19 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ["MyConsult.Financial/MyConsult.Financial.csproj", "MyConsult.Financial/"]
+RUN dotnet restore "MyConsult.Financial/MyConsult.Financial.csproj"
+COPY . .
+WORKDIR "/src/MyConsult.Financial"
+RUN dotnet build "MyConsult.Financial.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "MyConsult.Financial.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT [ "dotnet", "MyConsult.Financial.dll" ]
