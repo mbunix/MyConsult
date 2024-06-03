@@ -1,0 +1,6 @@
+@MyConsult.MotorVehicle_HostAddress = http://localhost:5098
+
+GET {{MyConsult.MotorVehicle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
