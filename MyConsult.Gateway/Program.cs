@@ -1,20 +1,56 @@
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace MyConsult.Gateway
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config
+                        .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                        .AddJsonFile("ocelot.json", false, true)
+                        .AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
+                        .AddEnvironmentVariables();
+                })
+                .ConfigureServices((context, services) =>
+                {
+                    services.AddOcelot();
+                    services.AddAuthentication(options =>
+                    {
+                        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                    })
+                    .AddJwtBearer(options =>
+                    {
+                        options.Authority = "http://localhost:5000";
+                        options.RequireHttpsMetadata = false;
+                        options.Audience = "MyConsultApi";
+                    });
+                })
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.Configure((context, app) =>
+                    {
+                        app.UseAuthentication();
+                        app.UseOcelot().Wait();
+                    })
+                    .UseContentRoot(Directory.GetCurrentDirectory())
+                    .UseIISIntegration();
+                });
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.Run();
