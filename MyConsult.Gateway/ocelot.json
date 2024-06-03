@@ -10,7 +10,12 @@
                 }
             ],
             "UpstreamPathTemplate": "/api/medical/{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            },
+            "SwaggerKey": "MyConsultApi.Medical"
         },
         {
             "DownstreamPathTemplate": "/api/financial/{everything}",
@@ -22,7 +27,12 @@
                 }
             ],
             "UpstreamPathTemplate": "/api/financial/{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            },
+            "SwaggerKey": "MyConsultApi.Financial"
         },
         {
             "DownstreamPathTemplate": "/api/insurance/{everything}",
@@ -34,7 +44,12 @@
                 }
             ],
             "UpstreamPathTemplate": "/api/insurance/{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            },
+            "SwaggerKey": "MyConsultApi.Insurance"
         },
         {
             "DownstreamPathTemplate": "/api/motorVehicle{everything}",
@@ -46,9 +61,26 @@
                 }
             ],
             "UpstreamPathTemplate": "/api/motorVehicle{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+            "SwaggerKey":"MyConsultApi.MotorVehicle",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            },
+            "SwaggerEndPoints":[
+                {
+                    "Key": "MyConsultApi",
+                    "Config":[
+                        {
+                            "Name": "MyConsultApi",
+                            "Url": "http://localhost:5000/swagger/v1/swagger.json",
+                            "Version": "1.0.0"
+                        }
+                    ]
+                }
+            ]
         }
-        
+      
     ],
     "GlobalConfiguration": {
         "BaseUrl": "http://localhost:5000"
