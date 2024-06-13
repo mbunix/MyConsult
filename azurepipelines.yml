@@ -1,0 +1,5 @@
+#azure pipelines file to build all the microservices and deploy them to Azure
+
+trigger:
+  main
+stages:

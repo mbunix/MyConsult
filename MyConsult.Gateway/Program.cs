@@ -48,9 +48,15 @@ namespace MyConsult.Gateway
                     {
                         app.UseAuthentication();
                         app.UseOcelot().Wait();
+                        app.UseRouting();
+                        app.UseEndpoints(endpoints =>
+                        {
+                            endpoints.MapControllers();
+                        });
                     })
                     .UseContentRoot(Directory.GetCurrentDirectory())
                     .UseIISIntegration();
                 });
+
     }
 }

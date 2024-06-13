@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.MotorVehicle", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Insurance", "MyConsult.Insurance\MyConsult.Insurance.csproj", "{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myconsult.Identity", "MyConsult.Identity\Myconsult.Identity.csproj", "{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
