@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9KsgOo1ttBPY5xmBl2+URTDRwtVQ6uE4eipwLy70L1U=",
+  "Source": "MyConsult.Gateway",
+  "BasePath": "_content/MyConsult.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

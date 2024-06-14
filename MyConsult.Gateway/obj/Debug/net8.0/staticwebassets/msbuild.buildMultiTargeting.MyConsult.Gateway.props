@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyConsult.Gateway.props" />
+</Project>

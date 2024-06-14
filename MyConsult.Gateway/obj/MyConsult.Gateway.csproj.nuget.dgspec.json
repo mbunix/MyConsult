@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj": {}
+    "D:\\Projects\\MyConsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj": {
+    "D:\\Projects\\MyConsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj",
+        "projectUniqueName": "D:\\Projects\\MyConsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj",
         "projectName": "MyConsult.Gateway",
-        "projectPath": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj",
-        "packagesPath": "C:\\Users\\BellianBrianOtieno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.Gateway\\obj\\",
+        "projectPath": "D:\\Projects\\MyConsult\\MyConsult.Gateway\\MyConsult.Gateway.csproj",
+        "packagesPath": "C:\\Users\\belli\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MyConsult\\MyConsult.Gateway\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BellianBrianOtieno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Projects\\viBank-App\\Web\\viBank-Web\\viBank-Api": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
