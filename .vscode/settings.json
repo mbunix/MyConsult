@@ -1,3 +1,4 @@
 {
-    "circleci.persistedProjectSelection": []
+    "circleci.persistedProjectSelection": [],
+    "cmake.sourceDirectory": "C:/Users/bellian.otieno/personals/MyConsult/myconsult/linux"
 }
