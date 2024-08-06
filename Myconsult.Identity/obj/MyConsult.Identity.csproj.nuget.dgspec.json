@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\MyConsult.Identity.csproj": {}
+    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\Myconsult.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\MyConsult.Identity.csproj": {
+    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\Myconsult.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\MyConsult.Identity.csproj",
-        "projectName": "MyConsult.Identity",
-        "projectPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\MyConsult.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\Myconsult.Identity.csproj",
+        "projectName": "Myconsult.Identity",
+        "projectPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\Myconsult.Identity.csproj",
         "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Identity\\obj\\",
         "projectStyle": "PackageReference",
@@ -50,9 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Identityserver4": {
+            "Duende.IdentityServer.AspNetIdentity": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "IdentityServer4": {
               "target": "Package",
               "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -61,6 +73,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "microsoft.identityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [
