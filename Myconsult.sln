@@ -3,27 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Gateway", "MyConsult.Gateway\MyConsult.Gateway.csproj", "{9982CF4D-D198-4D03-B785-43504B67D8A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsult.Gateway", "MyConsult.Gateway\MyConsult.Gateway.csproj", "{9982CF4D-D198-4D03-B785-43504B67D8A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Medical", "MyConsult.Medical\MyConsult.Medical.csproj", "{8F113967-3918-47CD-A577-6F8034E4E79D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsult.Medical", "MyConsult.Medical\MyConsult.Medical.csproj", "{8F113967-3918-47CD-A577-6F8034E4E79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Financial", "MyConsult.Financial\MyConsult.Financial.csproj", "{C3298E32-E5F5-426C-9593-E015BC4635AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsult.Financial", "MyConsult.Financial\MyConsult.Financial.csproj", "{C3298E32-E5F5-426C-9593-E015BC4635AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.MotorVehicle", "MyConsult.MotorVehicle\MyConsult.MotorVehicle.csproj", "{08D24C06-87DF-403F-884F-72AE7E62217E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsult.MotorVehicle", "MyConsult.MotorVehicle\MyConsult.MotorVehicle.csproj", "{08D24C06-87DF-403F-884F-72AE7E62217E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Insurance", "MyConsult.Insurance\MyConsult.Insurance.csproj", "{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsult.Insurance", "MyConsult.Insurance\MyConsult.Insurance.csproj", "{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Identity", "MyConsult.Identity\MyConsult.Identity.csproj", "{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myconsult.Identity", "MyConsult.Identity\Myconsult.Identity.csproj", "{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myconsult.Identity", "MyConsult.Identity\Myconsult.Identity.csproj", "{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9982CF4D-D198-4D03-B785-43504B67D8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,5 +41,15 @@ Global
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63784821-3A43-4FA7-8423-F3D3A7BBE26C}
 	EndGlobalSection
 EndGlobal

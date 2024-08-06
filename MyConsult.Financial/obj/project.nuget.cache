@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "prvLV1GiJaM=",
+  "dgSpecHash": "20il+wXJPW4=",
   "success": true,
   "projectFilePath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Financial\\MyConsult.Financial.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\graphql.server.transports.aspnetcore\\7.7.1\\graphql.server.transports.aspnetcore.7.7.1.nupkg.sha512",
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\graphql.server.ui.playground\\7.7.1\\graphql.server.ui.playground.7.7.1.nupkg.sha512",
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\graphql.systemtextjson\\7.6.0\\graphql.systemtextjson.7.6.0.nupkg.sha512",
-    "C:\\Users\\bellian.otieno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
+    "C:\\Users\\bellian.otieno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",

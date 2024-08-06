@@ -1,13 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using IdentityServer4.Models;
+
+using Duende.IdentityServer.Models;
+
 
 namespace MyConsult.Identity.Helper
 {
-    public class Config
+    public static class Config
     {
+        public const string Admin = "admin";
+        public const string User = "user";
         public static IEnumerable<ApiResource> ApiResources =>
             new List<ApiResource>
             {
@@ -21,6 +21,8 @@ namespace MyConsult.Identity.Helper
             new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+                new IdentityResources.Email(),
             };
             
 
