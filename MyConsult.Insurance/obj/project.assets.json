@@ -814,11 +814,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
+      "projectName": "MyConsult.Insurance",
+      "projectPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
+      "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\obj\\",
+=======
       "projectUniqueName": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
       "projectName": "MyConsult.Insurance",
       "projectPath": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
       "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\obj\\",
+>>>>>>> main
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

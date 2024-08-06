@@ -1,0 +1,16 @@
+* obj
+* .settings.json
+* .vscode
+* .vs
+
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+Myconsult.MotorVehicle/obj
+Myconsult.Medical/obj
+Myconsult.Insurance/obj
+Myconsult.Gateway/obj
+Myconsult.Financial/obj

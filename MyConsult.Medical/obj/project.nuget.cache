@@ -1,7 +1,9 @@
 {
   "version": 2,
   "dgSpecHash": "4i0AKYpGIAw=",
+  "dgSpecHash": "F1kF+mw+3lg=",
   "success": true,
+  "projectFilePath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
   "projectFilePath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bellian.otieno\\.nuget\\packages\\graphql\\7.6.0\\graphql.7.6.0.nupkg.sha512",

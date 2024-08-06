@@ -1,0 +1,67 @@
+name: Build ,Test, Publish , Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  set_environment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up .NET8.0.0
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "8.0.0"
+
+      - name: cd to myconsult folder
+        run: cd myconsult
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-${{ hashFiles('**/csproj') }}
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build Artifacts
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
+
+      - name: Publish Artifacts
+        run: dotnet publish -c Release -o publish --no-restore
+
+      - name: Docker Build
+        run: docker build -t myconsult/myconsult ./publish
+
+      - name: Docker Push
+        run: docker push myconsult/myconsult
+
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v1
+        with:
+          channel: "stable"
+
+      - name: Move to myconsult folder
+        run: cd myconsult
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build
+        run: flutter build apk --release
+
+      - name: Deploy
+        run: flutter build appbundle --release

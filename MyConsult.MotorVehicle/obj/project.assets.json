@@ -808,24 +808,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bellian.otieno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BellianBrianOtieno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.MotorVehicle\\MyConsult.MotorVehicle.csproj",
+      "projectUniqueName": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.MotorVehicle\\MyConsult.MotorVehicle.csproj",
       "projectName": "MyConsult.MotorVehicle",
-      "projectPath": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.MotorVehicle\\MyConsult.MotorVehicle.csproj",
-      "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.MotorVehicle\\obj\\",
+      "projectPath": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.MotorVehicle\\MyConsult.MotorVehicle.csproj",
+      "packagesPath": "C:\\Users\\BellianBrianOtieno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BellianBrianOtieno\\personals2\\Myconsult\\MyConsult.MotorVehicle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bellian.otieno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\BellianBrianOtieno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

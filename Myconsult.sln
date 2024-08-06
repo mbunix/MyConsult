@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Insurance", "MyCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsult.Identity", "MyConsult.Identity\MyConsult.Identity.csproj", "{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myconsult.Identity", "MyConsult.Identity\Myconsult.Identity.csproj", "{E9DC527B-B15C-4BCF-B16F-24B64A5DE857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,9 +46,5 @@ Global
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3190D9B2-6E25-4AB5-B0D4-0D79CBA853C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE0891A4-F3DD-426A-BB7A-F5EC0FEA5772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
