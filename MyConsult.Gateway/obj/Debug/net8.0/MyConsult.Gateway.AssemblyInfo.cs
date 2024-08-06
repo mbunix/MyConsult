@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyConsult.Gateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dc9712e10df28e239a849d1e401179c1f73e14d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f4f50742175861a3730aa8d69b2651d2bfa2f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyConsult.Gateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyConsult.Gateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
