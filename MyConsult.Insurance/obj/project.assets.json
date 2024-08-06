@@ -808,23 +808,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\belli\\.nuget\\packages\\": {},
+    "C:\\Users\\bellian.otieno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
+      "projectUniqueName": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
       "projectName": "MyConsult.Insurance",
-      "projectPath": "d:\\Projects\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
-      "packagesPath": "C:\\Users\\belli\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\MyConsult\\MyConsult.Insurance\\obj\\",
+      "projectPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\MyConsult.Insurance.csproj",
+      "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Insurance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\belli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bellian.otieno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -834,7 +834,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "D:\\Projects\\viBank-App\\Web\\viBank-Web\\viBank-Api": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -894,7 +893,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

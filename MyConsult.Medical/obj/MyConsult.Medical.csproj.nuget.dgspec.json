@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj": {}
+    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj": {
+    "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
+        "projectUniqueName": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
         "projectName": "MyConsult.Medical",
-        "projectPath": "D:\\Projects\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
-        "packagesPath": "C:\\Users\\belli\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\MyConsult\\MyConsult.Medical\\obj\\",
+        "projectPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\MyConsult.Medical.csproj",
+        "packagesPath": "C:\\Users\\bellian.otieno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bellian.otieno\\personals\\MyConsult\\MyConsult.Medical\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\belli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bellian.otieno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Projects\\viBank-App\\Web\\viBank-Web\\viBank-Api": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -111,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
