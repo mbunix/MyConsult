@@ -1,8 +1,10 @@
 
 
+using Microsoft.AspNetCore.Identity;
+
 namespace MyConsult.Identity.Models
 {
-    public class UserAccount
+    public class ApplicationUser:IdentityUser  
     {
         public string UserName { get; set; } = string.Empty;
 
